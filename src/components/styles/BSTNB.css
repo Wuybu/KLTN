@@ -1,0 +1,25 @@
+.container {
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    padding: 20px;
+  }
+  
+  .header {
+    background-color: pink;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .header p {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .text-center p {
+    font-size: 14px;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 8px;
+  }
+  

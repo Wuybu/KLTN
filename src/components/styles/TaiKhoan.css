@@ -1,0 +1,48 @@
+.custom-tabs .nav-tabs {
+  justify-content: space-between; /* Adjust this as needed */
+}
+
+.custom-tabs .nav-item {
+  flex: 1; /* Make each tab equally spaced */
+}
+
+.custom-tabs .nav-link {
+  text-align: center; /* Center the text in each tab */
+}
+
+/* Tắt border và tùy chỉnh giao diện Tabs */
+.custom-tabs .nav-link {
+    border: none;
+    color: black; /* Màu chữ mặc định là đen */
+    font-weight: none;
+    position: relative;
+    font-size: 14px;
+  }
+  
+  .custom-tabs .nav-link.active {
+    color: rgb(216, 0, 0); /* Màu chữ khi được chọn */
+  }
+  
+  .custom-tabs .nav-link::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    bottom: -5px; /* Khoảng cách chân gạch dưới */
+    left: 0;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+  
+  .custom-tabs .nav-link:hover::after {
+    transform: scaleX(1); /* Hiệu ứng mở rộng chân gạch dưới khi hover */
+    background-color: red; /* Chân gạch dưới màu đỏ khi hover */
+  }
+  
+  .custom-tabs .nav-link.active::after {
+    transform: scaleX(1); /* Hiển thị gạch dưới cho tab đang active */
+    background-color: red; /* Đổi màu chân gạch dưới thành đỏ khi active */
+  }
+  

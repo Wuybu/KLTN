@@ -1,0 +1,61 @@
+.container{
+    border-radius: 1%;
+}
+.card-title {
+    font-size: 18px; /* Giảm cỡ chữ của tên sản phẩm */
+    font-weight: normal;
+}
+.card {
+    background-color: #fff;
+    padding: 12px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: border 0.3s ease-in-out;
+    border: 1px solid transparent; /* Ẩn border mặc định */
+    width: 255px; /* Giảm kích thước card */
+    height: 400px;
+    font-size: 17px; /* Giảm cỡ chữ */
+}
+.card:hover {
+    border: 1px solid #ccc; /* Hiển thị border khi di chuột vào */
+  }
+  .price-discounted {
+    color: rgb(204, 0, 0);
+    font-weight: bold;
+    margin-right: 8px;
+  }
+  
+  .price-original {
+    text-decoration: line-through;
+    margin-right: 8px;
+  }
+  
+  .discount-rate {
+    background-color: red;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .more-btn button {
+    width: 300px; /* Điều chỉnh chiều rộng của nút */
+    background-color: #fff;
+    border: 2px solid #dc3545;
+    color: #dc3545;
+    padding: 8px 16px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 30px; /* Khoảng cách từ dưới */
+
+  }
+  
+  .more-btn button:hover {
+    background-color: #dc3545; /* Đổi màu nền khi hover */
+    color: white;
+  }
+  
+  
+  

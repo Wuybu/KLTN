@@ -1,0 +1,13 @@
+/* Style for inactive tab title */
+.nav-tabs .nav-link {
+    color: gray; /* Set the color to gray when inactive */
+    font-size: 14px; /* Set the font size to 14px */
+  }
+  
+  /* Style for active tab title */
+  .nav-tabs .nav-link.active {
+    color: rgb(216, 0, 0); /* Default color when active */
+    font-size: 15px; /* You can set a larger size when active */
+    font-weight: bold;
+  }
+  

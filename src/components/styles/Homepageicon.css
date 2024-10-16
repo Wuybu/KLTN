@@ -1,0 +1,15 @@
+
+card img {
+    height: 4-px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 30px;
+  }
+  
+  .img-fluid {
+    max-width: 20px;
+    margin-bottom: 10px;
+  }
+  
